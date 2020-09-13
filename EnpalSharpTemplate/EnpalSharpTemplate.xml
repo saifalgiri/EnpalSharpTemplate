@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EnpalSharpTemplate</name>
+    </assembly>
+    <members>
+        <member name="T:EnpalSharpTemplate.Controllers.V1_0.SampleController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EnpalSharpTemplate.Controllers.V1_0.SampleController.Search(EnpalSharpTemplate.Model.IdentityServerConfig)">
+            <summary>
+            Sample Get
+            </summary>
+            <param name="config">Some sample test value</param>
+            <returns></returns>
+        </member>
+        <member name="T:EnpalSharpTemplate.Controllers.V1_1.SampleController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EnpalSharpTemplate.Controllers.V1_1.SampleController.Search(System.String)">
+            <summary>
+            Sample Get
+            </summary>
+            <param name="sampleValue">Some sample test value</param>
+            <returns></returns>
+        </member>
+        <member name="P:EnpalSharpTemplate.Model.ErrorMessage.Messages">
+            <summary>
+            Provide a list of all errors happens
+            </summary>
+        </member>
+        <member name="T:EnpalSharpTemplate.Services.SampleService">
+            <summary>
+            This class will handle the Search call asynchronous
+            </summary>
+        </member>
+        <member name="M:EnpalSharpTemplate.Services.SampleService.ExecuteResultAsync(Microsoft.AspNetCore.Mvc.ActionContext)">
+            <summary>
+            Run async to search and return the result
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EnpalSharpTemplate.Startup">
+            <summary>
+            Startup class
+            </summary>
+        </member>
+        <member name="M:EnpalSharpTemplate.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:EnpalSharpTemplate.Startup.Configuration">
+            <summary>
+            Hold the configuration
+            </summary>
+        </member>
+        <member name="M:EnpalSharpTemplate.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:EnpalSharpTemplate.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
